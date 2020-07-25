@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>2.0</version>
+    <date>2016-09-26T13:49:40Z</date>
+    <groups>
+        <group>
+            <name>Templates</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>ADFS URL Checks</template>
+            <name>ADFS URL Checks</name>
+            <description/>
+            <groups>
+                <group>
+                    <name>Templates</name>
+                </group>
+            </groups>
+            <applications>
+                <application>
+                    <name>URL Check</name>
+                </application>
+            </applications>
+            <items/>
+            <discovery_rules/>
+            <macros>
+                <macro>
+                    <macro>{$HOSTENV}</macro>
+                    <value>NONE</value>
+                </macro>
+                <macro>
+                    <macro>{$PRODUCT}</macro>
+                    <value>NONE</value>
+                </macro>
+            </macros>
+            <templates/>
+            <screens/>
+        </template>
+    </templates>
+</zabbix_export>
